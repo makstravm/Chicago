@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: local("Roboto-Bold"), 
+       url(../fonts/Roboto-Bold.woff2)format("woff2"), 
+       url(../fonts/Roboto-Bold.woff)format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: local("Roboto-Regular"), 
+       url(../fonts/Roboto-Regular.woff2)format("woff2"), 
+       url(../fonts/Roboto-Regular.woff)format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: local("Roboto-light"), 
+       url(../fonts/Roboto-Regular.woff2)format("woff2"), 
+       url(../fonts/Roboto-Regular.woff)format("woff");
+  font-display: swap;
+}
+
+
+
+
+@font-face {
+  font-family: "Bernied";
+  font-weight: 400;
+  src: local("Bernied-Distressed"), 
+       url(../fonts/Bernied-Distressed.woff2) format("woff2"), 
+       url(../fonts/Bernied-Distressed.woff) format("woff");
+  font-display: swap;
+}

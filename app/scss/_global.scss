@@ -1,3 +1,44 @@
-body{
-  
+body {
+  @extend %roboto-400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu {
+  &__list {
+    display: flex;
+  }
+  &__item {
+    & + .menu__item {
+      margin-left: 25px;
+    }
+  }
+  &__link {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+.address {
+  &__phone,
+  &__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  &__phone{
+    margin-bottom: 5px;
+  }
 }
