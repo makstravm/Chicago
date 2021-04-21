@@ -9,39 +9,44 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" style="background-image: url(../images/home-bg.jpg)">
     <div class="container">
       <div class="header__top-wrapper">
         <div class="header__top">
-          <a class="logo" href="#">
+          <a class="logo" href="index.html">
             <img src="images/logo.svg" alt="logo">
           </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link" href="#">BarberShop Chicago</a>
+                <a class="menu__link" href="index.html">BarberShop Chicago</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Цены и бонусы</a>
+                <a class="menu__link" href="sevices.html">Цены и бонусы</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Команда</a>
+                <a class="menu__link" href="team.html">Команда</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Галерея</a>
+                <a class="menu__link" href="gallery.html">Галерея</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Контакты</a>
+                <a class="menu__link" href="contact.html">Контакты</a>
               </li>
             </ul>
           </nav>
           <address class="address">
             <a class="address__phone" href="tel:+380930014789">+380930014789</a>
-            <a class="address__link" href="https://g.page/dankotoys?share" target="_blank">ул. Цементная, 8, Харків</a>
+            <a class="address__link" href="https://g.page/dankotoys?share" target="_blank">ул. Цементная, 8, Харьков</a>
           </address>
+          <button class="menu__btn">
+            <div class="menu__btn-line half start"></div>
+            <div class="menu__btn-line"></div>
+            <div class="menu__btn-line half end"></div>
+          </button>
         </div>
       </div>
-      <div class="header__content">
+     <div class="header__content _anim-items _anim-no-hide">
         <div class="header__content-top">
           <span class="header__subtitle">LEGENDARY BARBERSHOP</span>
           <h1 class="header__title">CHICAGO</h1>
@@ -69,7 +74,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="about">
+    <div class="about">
       <div class="container">
         <div class="about__inner">
           <div class="about__img-box">
@@ -105,9 +110,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="price">
+   <div class="price">
       <div class="container">
         <div class="price__inner">
           <div class="price__booking">
@@ -177,7 +182,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <section class="team">
       <div class="container">
@@ -185,10 +190,10 @@
           Наша Команда
         </h2>
         <div class="team__inner">
-          <div class="team__item">
-            <a class="team__name" href="#">
+          <div class="team__item _anim-items _anim-no-hide">
+            <p class="team__name">
               Барбер Анатолий
-            </a>
+            </p>
             <div class="team__item-box">
               <img src="images/team/1.jpg" alt="photo img">
             </div>
@@ -198,10 +203,10 @@
               что стрижка должна подчеркивать внутреннее состояние.
             </p>
           </div>
-          <div class="team__item">
-            <a class="team__name" href="#">
+          <div class="team__item _anim-items _anim-no-hide">
+            <p class="team__name">
               Barber Мурат
-            </a>
+            </p>
             <div class="team__item-box">
               <img src="images/team/2.jpg" alt="photo img">
             </div>
@@ -210,10 +215,10 @@
               Барбер - его карма.
             </p>
           </div>
-          <div class="team__item">
-            <a class="team__name" href="#">
+          <div class="team__item _anim-items _anim-no-hide">
+            <p class="team__name">
               Barber Крис
-            </a>
+            </p>
             <div class="team__item-box">
               <img src="images/team/3.jpg" alt="photo img">
             </div>
@@ -222,18 +227,18 @@
               реализация творческого потенциала.
             </p>
           </div>
-          <div class="team__item">
-            <a class="team__name" href="#">
+          <div class="team__item _anim-items _anim-no-hide">
+            <p class="team__name">
               Barber Владимир
-            </a>
+            </p>
             <div class="team__item-box">
               <img src="images/team/4.jpg" alt="photo img">
             </div>
             <p class="team__text"> Ответственно и умело подходит к выбору и оформлению стрижки.
             </p>
           </div>
-          <div class="team__item">
-            <a class="team__name" href="#">
+          <div class="team__item _anim-items _anim-no-hide">
+            <a class="team__name team__name-link" href="study.html">
               Подготовка команды
             </a>
             <div class="team__item-box">
@@ -246,7 +251,8 @@
         </div>
       </div>
     </section>
-    <section class="gallery">
+
+<section class="gallery">
       <div class="container">
         <h2 class=" gallery__title title">
           Наши работы
@@ -291,7 +297,7 @@
         </div>
       </div>
     </section>
-    <div class="history">
+ <div class="history">
       <div class="container">
         <h2 class="history__title title">
           Возрождение барбершопов - возрождение традиций!
@@ -334,7 +340,7 @@
       </div>
     </div>
   </main>
-  <footer class="footer">
+ <footer class="footer">
     <div class="contact">
       <div class="container">
         <h2 class="contact__title title">
@@ -344,7 +350,7 @@
             <p class="contact__text">
               Chicago BarberShop
             </p>
-            <address class="contact__address">АДРЕС: ул. Цементная, 8, Харків</address>
+            <address class="contact__address">АДРЕС: ул. Цементная, 8, Харьков</address>
             <div class="contact__box-phone">
               <span>ТЕЛЕФОН:</span>
               <a class="contact__phone-link" href="#">+380930014789</a>
@@ -377,7 +383,7 @@
         </div>
       </div>
     </div>
-   <div class="container">
+  <div class="container">
       <div class="footer__inner">
         <a class="logo" href="#">
           <img src="images/logo.svg" alt="logo image">
@@ -425,31 +431,31 @@
           </ul>
         </div>
         <div class="footer__item-box">
-            <div class="footer__subtitle">
+          <div class="footer__subtitle">
             Для посетителей
-            </div>
-            <ul class="footer__list">
-              <li class="footer__item">
-                <a class="footer__link" href="#">
-                  Выбираем бороду
-                </a>
-              </li>
-              <li class="footer__item">
-                <a class="footer__link" href="#">
-                  Выбираем стрижку
-                </a>
-              </li>
-              <li class="footer__item">
-                <a class="footer__link" href="#">
-                  Интересно о бороде
-                </a>
-              </li>
-              <li class="footer__item">
-                <a class="footer__link" href="#">
-                  Любителям бриться
-                </a>
-              </li>
-            </ul>
+          </div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                Выбираем бороду
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                Выбираем стрижку
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                Интересно о бороде
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                Любителям бриться
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="footer__bottom">
@@ -459,8 +465,9 @@
       </div>
     </div>
   </footer>
-  <script defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdZLJMT2fk4OHoUq6wqea0EJ0BljCD21s&callback=initMap">
-  </script> 
+  <script defer=""
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdZLJMT2fk4OHoUq6wqea0EJ0BljCD21s&callback=initMap">
+    </script>
   <script src="js/main.min.js">
   </script>
 </body>
