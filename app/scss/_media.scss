@@ -1,8 +1,25 @@
+@media (max-width: 1120px) {
+  .service {
+    &__inner {
+      display: block;
+    }
+    &__item-link {
+      display: flex;
+      align-items: center;
+    }
+    &__box-img {
+      margin-bottom: 25px;
+      margin-right: 30px;
+    }
+  }
+}
+
 @media (max-width: 1075px) {
   .address {
     display: none;
   }
 }
+
 @media (max-width: 960px) {
   .about {
     padding-bottom: 25px;
@@ -18,7 +35,27 @@
       width: 32%;
     }
   }
+  .content-page {
+    &__inner {
+      flex-direction: column;
+    }
+    &__wrapper {
+      order: 1;
+      margin-bottom: 25px;
+    }
+    &__box-img {
+      display: none;
+      margin-top: 0;
+    }
+    &__link {
+      display: inline-block;
+    }
+    &__item {
+      padding: 45px 0 20px;
+    }
+  }
 }
+
 @media (max-width: 860px) {
   .price {
     &__inner {
@@ -47,6 +84,7 @@
     }
   }
 }
+
 @media (max-width: 825px) {
   .logo {
     width: 100px;
@@ -107,6 +145,36 @@
       }
     }
   }
+  .header-services {
+    margin: 100px 0 50px;
+    &__inner {
+      display: block;
+    }
+    &__free {
+      margin: 40px auto 0;
+    }
+  }
+  .header-page {
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 770px) {
+  .service {
+    &__inner {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__item-link {
+      display: block;
+      margin: 0 auto 25px;
+    }
+    &__box-img {
+      margin-bottom: 15px;
+      margin-right: 0px;
+    }
+  }
 }
 
 @media (max-width: 640px) {
@@ -145,6 +213,33 @@
     }
     &__bottom-text {
       font-size: 14px;
+    }
+  }
+  .service {
+    padding: 50px 0 25px;
+    text-align: center;
+    img {
+      height: 320px;
+      margin: 0 auto;
+    }
+  }
+  .content-page {
+    h3 {
+      font-size: 32px;
+      line-height: 46px;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li,
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+    &__link {
+      font-size: 16px;
+      line-height: 28px;
     }
   }
 }
@@ -204,6 +299,36 @@
     padding: 50px 0;
     &__map {
       height: 350px;
+    }
+  }
+  .header-services {
+    &__subtitle {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 10px;
+    }
+    &__list-item,
+    &__text {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    & .header-services__list {
+      margin-bottom: 10px;
+    }
+    &__free {
+      padding: 25px 30px;
+    }
+  }
+  .service {
+    &__subtitle {
+      font-size: 32px;
+      line-height: 54px;
+    }
+    &__list-item {
+      font-size: 16px;
+    }
+    & .service__list {
+      padding-left: 20px;
     }
   }
 }
